@@ -15,11 +15,15 @@
         android:layout_height="wrap_content"
         android:text="@string/button_text"
         android:id="@+id/getDataButton"
+        android:background="@color/buttonBackgroundColor"
+        android:textColor="@color/buttonTextColor"
         />
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getDataButton"
+        android:layout_marginTop="@dimen/listview_top_margin"
+        android:id="@+id/simplelistview">
     </ListView>
 
 </RelativeLayout>
