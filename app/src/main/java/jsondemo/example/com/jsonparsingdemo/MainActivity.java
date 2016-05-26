@@ -65,9 +65,10 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(Boolean result)
         {
             super.onPostExecute(result);
+            mProgressDialog.dismiss();
             if( result )
             {
-                mProgressDialog.dismiss();
+
                 mListView.setAdapter( new ListAdapter( trackList,getApplicationContext() ));
             }
             else

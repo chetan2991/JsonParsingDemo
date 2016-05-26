@@ -13,11 +13,11 @@ import java.util.Iterator;
 
 public class JsonParser {
 
-    protected static final String CATALOG_URL = "http://musicapp.xerces.info/music/getTracks.php";
+    protected static final String CATALOG_URL = "http://musicapp.xerces.info/music/getTracks.php?genere_type=Country&genere_name=sdfsa";
     private static final String JSON_MUSIC = "music";
     private static final String JSON_TITLE = "Track_Name";
-    private static final String JSON_ARTIST = "artist";
-    private static final String JSON_GENRE = "Track_Genere_Type";
+    private static final String JSON_ARTIST = "Track_Genere_Type";
+    private static final String JSON_GENRE = "Track_Genere_Name";
     private static final String TAG = "JSONPARSER";
 
     private TrackDetailsModelClass buildFromJSON(JSONObject json) throws JSONException {

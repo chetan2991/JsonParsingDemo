@@ -48,7 +48,7 @@ public class ListAdapter extends BaseAdapter
         TrackDetailsModelClass trackDetailsModelClass = mTrackList.get(i);
         if( view == null )
         {
-             view = mLayoutInflater.inflate( R.layout.list_item_layout, viewGroup );
+            view = mLayoutInflater.inflate( R.layout.list_item_layout, viewGroup,false );
             viewHolder = new ViewHolder();
             viewHolder.mTrackNameTextView = (TextView)view.findViewById(R.id.trackName );
             viewHolder.mTrackGenereTextView = (TextView)view.findViewById(R.id.trackGenere );
