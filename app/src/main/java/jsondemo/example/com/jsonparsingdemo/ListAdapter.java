@@ -72,5 +72,6 @@ public class ListAdapter extends BaseAdapter
         public TextView mTrackGenereTextView;
         public TextView mTrackArtistTextView;
         public ImageView mTrackImageView;
+
     }
 }
