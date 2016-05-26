@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JSonParsingDemo</string>
+    <string name="button_text">GetData</string>
+</resources>
